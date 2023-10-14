@@ -1,0 +1,5 @@
+drop_foreign_key("room_restrictions","room_restrictions_reservstion_id_fk",{})
+
+
+drop_index("reservations","reservation_email_idx")
+drop_index("reservations","reservations_laset_name_idx")

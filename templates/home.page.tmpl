@@ -1,0 +1,85 @@
+{{template "base" .}}
+
+{{define "content"}}
+<div id="main-carousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#main-carousel" data-slide-to="1"></li>
+        <li data-target="#main-carousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/images/wallpaperflare.com_wallpaper.jpg" class="d-block w-100" alt="Woman and laptop">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-center mt-4">Welcome to Silsila Restaurant</h5>
+                <p>
+                    Silsila Restaurant is more than just a dining experience; it's a culinary journey that reflects my
+                    dream and passion for exceptional cuisine. As the founder, I extend a warm welcome to all our
+                    guests. Mr. Clark's encouragement has been a driving force in bringing this dream to life.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/Coffee.jpg" class="d-block w-100" alt="Tray with coffee">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-center mt-4">Welcome to Silsila Restaurant</h5>
+                <p>
+                    Situated in the heart of the city, Silsila is a cozy and intimate restaurant that offers two unique
+                    suites for your dining pleasure. We serve delightful breakfast and brunch options that will
+                    tantalize your taste buds. Our commitment to quality, exceptional service, and a warm ambiance
+                    ensures that every visit to Silsila is a memorable one.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/static/images/outside.jpg" class="d-block w-100" alt="Outside">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-center mt-4">Welcome to Silsila Restaurant</h5>
+                <p>
+                    Silsila is not just a restaurant; it's an embodiment of my vision. I invite you to experience the
+                    flavors, the hospitality, and the dream that is Silsila. We look forward to serving you and making
+                    your dining experience truly special.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mt-4">Welcome to Silsila Restaurant</h1>
+            <p>
+                Silsila Restaurant is more than just a dining experience; it's a culinary journey that reflects my dream
+                and passion for exceptional cuisine. As the founder, I extend a warm welcome to all our guests. Mr.
+                Clark's encouragement has been a driving force in bringing this dream to life.
+            </p>
+            <p>
+                Situated in the heart of the city, Silsila is a cozy and intimate restaurant that offers two unique
+                suites for your dining pleasure. We serve delightful breakfast and brunch options that will tantalize
+                your taste buds. Our commitment to quality, exceptional service, and a warm ambiance ensures that every
+                visit to Silsila is a memorable one.
+            </p>
+            <p>
+                Silsila is not just a restaurant; it's an embodiment of my vision. I invite you to experience the
+                flavors, the hospitality, and the dream that is Silsila. We look forward to serving you and making your
+                dining experience truly special.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col text-center">
+
+            <a href="/search-availability" class="btn btn-success">Make Reservation Now</a>
+
+        </div>
+    </div>
+
+</div>
+{{end}}
